@@ -9,7 +9,8 @@ $btn-color: #ff0000;
 $btn-hover-color: #00ff00;
 button {
 	color: $btn-color;
-	&:hover {
-		color: $btn-hover-color;
-	}
+}
+
+button:hover {
+	color: $btn-hover-color;
 }
