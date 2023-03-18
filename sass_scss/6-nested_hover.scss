@@ -1,0 +1,15 @@
+/* 
+Assigns:
+  - Text color #FF0000 to button tags
+  - When the user hovers over button tags, text color should change to #00FF00
+  - You must use nested declarations
+*/
+
+$btn-color: #ff0000;
+$btn-hover-color: #00ff00;
+button {
+	color: $btn-color;
+	&:hover {
+		color: $btn-hover-color;
+	}
+}
